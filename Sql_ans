@@ -1,0 +1,14 @@
+CREATE TABLE Student (
+    ID INT PRIMARY KEY NOT NULL,
+    Name VARCHAR(20) NOT NULL,
+    Age INT NOT NULL,
+    Address VARCHAR(25)
+);
+
+INSERT INTO Student (ID, Name, Age, Address)
+VALUES
+    (1, 'John Doe', 20, '123 Main St, City'),
+    (2, 'Jane Smith', 22, '456 Elm St, Town'),
+    (3, 'Michael Johnson', 21, '789 Oak St, Village'),
+    (4, 'Emily Brown', 23, '555 Pine St, Hamlet'),
+    (5, 'William Davis', 20, '999 Maple St, County');
